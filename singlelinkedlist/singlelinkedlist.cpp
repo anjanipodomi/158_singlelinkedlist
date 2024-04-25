@@ -48,7 +48,7 @@ void addNode() {
     previous->next = nodeBaru;
 }
 
-bool seracNode(int nim, Node* current, Node* previous) {
+bool serachNode(int nim, Node* current, Node* previous) {
     previous = START;
     current = START;
     while (current != NULL && nim > current->noMhs)
@@ -71,7 +71,8 @@ bool seracNode(int nim, Node* current, Node* previous) {
 }
  
 bool deleteNode(int nim) {
-
+    Node* current = START;
+    Node* previous = START;
 }
 
 int main()
