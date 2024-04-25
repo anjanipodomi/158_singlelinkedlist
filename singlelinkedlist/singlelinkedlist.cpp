@@ -48,6 +48,10 @@ void addNode() {
     previous->next = nodeBaru;
 }
 
+bool seracNode(int nim, Node* current, Node* previous) {
+
+}
+
 int main()
 {
     
