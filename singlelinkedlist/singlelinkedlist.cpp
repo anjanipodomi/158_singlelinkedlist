@@ -89,6 +89,10 @@ bool listEmpty() {
 
 }
 
+void traverse() {
+
+}
+
 int main()
 {
     
