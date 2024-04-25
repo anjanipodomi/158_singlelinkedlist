@@ -49,6 +49,8 @@ void addNode() {
 }
 
 bool seracNode(int nim, Node* current, Node* previous) {
+    previous = START;
+    current = START;
 
 }
 
